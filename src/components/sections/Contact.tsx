@@ -60,9 +60,8 @@ const Contact: React.FC = () => {
       <StyledHeading>Contact</StyledHeading>
       <StyledTitle>Interested in what I&apos;ve done?</StyledTitle>
       <StyledDescription>
-        Currently enrolling in college but still seeking for a job. If you see
-        me good enough for your projects, or just want to show the breeze, my
-        inbox is always open. I will try to answer to you ASAP!
+        If you see me good enough for your projects, or just want to show the
+        breeze, my inbox is always open. I will try to answer to you ASAP!
       </StyledDescription>
       <MailTo href="mailto:ahujamoh@gmail.com">Contact me</MailTo>
     </StyledContainer>
