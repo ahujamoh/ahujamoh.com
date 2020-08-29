@@ -99,7 +99,7 @@ export const pageQuery = graphql`
       }
     }
     github {
-      user(login: "richardnguyen99") {
+      user(login: "ahujamoh") {
         repositories(
           first: 2
           orderBy: { field: STARGAZERS, direction: DESC }

@@ -329,7 +329,7 @@ const Header: React.FC<HeaderProps> = ({ siteTitle }) => {
       <StyledNavbar transparent={transparent}>
         <StyledContainer>
           <StyledBrand as={Link} to="/">
-            RICHARD
+            MOHIT
           </StyledBrand>
           <StyledToggler onClick={handleClick}>
             <Octicon icon={ChevronDown} />

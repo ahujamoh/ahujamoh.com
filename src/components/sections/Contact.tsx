@@ -64,7 +64,7 @@ const Contact: React.FC = () => {
         me good enough for your projects, or just want to show the breeze, my
         inbox is always open. I will try to answer to you ASAP!
       </StyledDescription>
-      <MailTo href="mailto:richard.ng0616@gmail.com">Contact me</MailTo>
+      <MailTo href="mailto:ahujamoh@gmail.com">Contact me</MailTo>
     </StyledContainer>
   )
 }

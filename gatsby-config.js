@@ -1,21 +1,22 @@
 require(`dotenv`).config({
-  path: `.env.${process.env.NODE_ENV}`,
+//   path: `.env.${process.env.NODE_ENV}`,
+    path: '.env'
 })
 const emoji = require(`remark-emoji`)
 
 module.exports = {
   // General information for SEO
   siteMetadata: {
-    title: "Richard's personal blog",
-    titleAlt: "Richard's blog",
-    description: 'A place where Richard tells his story',
+    title: "Mohit Ahuja's personal blog",
+    titleAlt: "Mohit Ahuja's blog",
+    description: 'A place where Mohit tells his story',
     banner: '',
     headline: '',
     language: 'en',
-    author: 'Richard Nguyen',
-    twitter: '@Richard86159584',
-    github: 'https://github.com/yuuta1999',
-    linkedin: 'https://www.linkedin.com/in/richard-nguyen-8a6168192/',
+    author: 'Mohit Ahuja ',
+    twitter: '@ahujamoh',
+    github: 'https://github.com/ahujamoh',
+    linkedin: 'https://www.linkedin.com/in/ahujamoh',
   },
   plugins: [
     `gatsby-plugin-typescript`,

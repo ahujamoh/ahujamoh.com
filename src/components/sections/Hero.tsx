@@ -203,7 +203,7 @@ const Hero: React.FC = () => {
 
   const Name: React.FC = () => (
     <StyledName style={{ transitionDelay: '200ms' }}>
-      Richard Nguyen.
+      Mohit Ahuja.
     </StyledName>
   )
 
@@ -241,7 +241,7 @@ const Hero: React.FC = () => {
           defaultLight
           mode={theme === 'light' ? 'dark' : 'light'}
         />
-        <span>&nbsp;&nbsp;/richardn1999</span>
+        <span>&nbsp;&nbsp;/ahujamoh</span>
       </StyledSocialMediaLink>
       <StyledSocialMediaLink>
         <Twitter
@@ -257,7 +257,7 @@ const Hero: React.FC = () => {
           defaultLight
           mode={theme === 'light' ? 'dark' : 'light'}
         />
-        <span>&nbsp;&nbsp;/richardnguyen99</span>
+        <span>&nbsp;&nbsp;/ahujamoh</span>
       </StyledSocialMediaLink>
     </StyledSocialMediaContaier>
   )

@@ -99,7 +99,7 @@ const Footer: React.FC = () => {
   const data = useStaticQuery(graphql`
     query MyQuery {
       github {
-        repository(name: "richardnguyen99", owner: "richardnguyen99") {
+        repository(name: "ahujamoh", owner: "ahujamoh") {
           stargazers(first: 10) {
             totalCount
           }
@@ -115,7 +115,7 @@ const Footer: React.FC = () => {
       <StyledFooterContainer>
         <StyledFlexGroup id="always">
           <StyledParagraph>
-            Built by <a href={data.github.repository.url}>@richardnguyen</a>
+            Built by <a href={data.github.repository.url}>@ahujamoh</a>
           </StyledParagraph>
           <StyledInlineBlock>
             {data.github.repository.stargazers.totalCount}

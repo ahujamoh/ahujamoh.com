@@ -169,7 +169,7 @@ const About: React.FC<AboutProps> = ({ img }) => {
       <StyledRowContent>
         <Col lg={6}>
           <StyledDescription>
-            Hi, I&apos;m Richard Nguyen, a college student and an immigrant from
+            Hi, I&apos;m Mohit Ahuja, a college student and an immigrant from
             Vietnam, living in Kent, WA. I&apos;m currently studying at Highline
             College. I love learning, designing and building websites, both
             front-end and back-end.
