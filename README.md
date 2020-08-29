@@ -2,9 +2,9 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/86736185-93d8-454a-b6d9-9f0d77687f40/deploy-status)](https://app.netlify.com/sites/richardnguyen99/deploys)
 
-A personal website of Richard Nguyen and this is its source code. This website is written in [Gatsby](https://www.gatsbyjs.org/), [React](https://reactjs.org/), [Typescript](https://www.typescriptlang.org/) and [Styled-components](https://www.styled-components.com/).
+A personal website of Mohit Ahuja( forked frrom [Richard's Nguyen](https://github.com/richardnguyen99/richardnguyen99) and this is its source code. This website is written in [Gatsby](https://www.gatsbyjs.org/), [React](https://reactjs.org/), [Typescript](https://www.typescriptlang.org/) and [Styled-components](https://www.styled-components.com/).
 
-_Notes: Richard open-sources his website to share the structure, the configurations, and how he organizes all of those things. He hopes that it could help some people are having troubles in writing their very first sites (in Gatsby and stuff). However, the website is highly customized to match his desires, so it could be a little frustrating to modify the codes to your version. But he will be happy if you do so. Not only will you improve your coding skills but also respect him and what he's doing._
+_Notes: Richard had open-sourced his website to share the structure, the configurations, and how he organizes all of those things. He hopes that it could help some people are having troubles in writing their very first sites (in Gatsby and stuff). However, the website is highly customized to match his desires, so it could be a little frustrating to modify the codes to your version. But he will be happy if you do so. Not only will you improve your coding skills but also respect him and what he's doing._
 
 ## Usage
 
@@ -54,6 +54,11 @@ _Notes: Richard open-sources his website to share the structure, the configurati
 
 3. Play around:
 
+   Install dependencies:
+   ```
+     yarn install
+   ```
+
    Development:
 
    ```shell
@@ -70,14 +75,18 @@ _Notes: Richard open-sources his website to share the structure, the configurati
 
 Currently, this website is being deployed to [Netlify](https://www.netlify.com/) (free for static website), so the script `yarn deploy` won't work properly (You can try if you still want to).
 
+## Liability declartion
+
+This is an open source code and you are responsible for securing your website, the authors are not responsible for your usage of the source code.
+
 ## Authors
 
-- [Richard Nguyen](https://github.com/richardnguyen99)
+- [Richard Nguyen](https://github.com/richardnguyen99): ORIGINAL author
+- [Mohit Ahuja](https://github.com/ahujamoh): small contributor
 
 ## Contribution & Contact
 
-If you found any problems or issues, please feel free to open a pull request to fix that. Richard would be happy if there were someone improving the website with him. If a pull request is unnecessary, you contact him with:
+If you found any problems or issues, please feel free to open a pull request to fix that. Mohit would be happy if there were someone improving the website with him. If a pull request is unnecessary, you contact him with:
 
-- Github: <https://github.com/richardnguyen99>
-- Reddit: <https://www.reddit.com/user/HieuNguyen990616>
-- Twitter: <https://twitter.com/Richard86159584>
+- Github: <https://github.com/ahujamoh>
+- Twitter: <https://twitter.com/ahujamoh>
