@@ -74,6 +74,7 @@ const PostTemplate: React.FC<PostTemplateProps> = ({ data: { mdx } }) => {
                 {mdx.frontmatter.date}
               </div>
               <PostTags tags={mdx.frontmatter.tags} />
+              {mdx.frontmatter.authors}
             </Col>
           </Row>
         </Container>
@@ -100,6 +101,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "YYYY-MM-DD")
         tags
+        authors
         thumbnail {
           childImageSharp {
             fixed(width: 150, height: 150) {

@@ -169,17 +169,20 @@ const About: React.FC<AboutProps> = ({ img }) => {
       <StyledRowContent>
         <Col lg={6}>
           <StyledDescription>
-            Hi, I&apos;m Mohit Ahuja, a college student and an immigrant from
-            Vietnam, living in Kent, WA. I&apos;m currently studying at Highline
-            College. I love learning, designing and building websites, both
-            front-end and back-end.
+            Hi, I&apos;m Mohit Ahuja, a software engineer currently employed by
+            Scania in Södertälje, Stockholm County, Sweden. I moved to Stockholm
+            in 2016 for studies and fell in love with Europe. I love learning,
+            designing, and building websites, both front-end and back-end.
           </StyledDescription>
           <StyledDescription>
-            I was never the best in schools, I&apos;m super curious about
-            everything I&apos;m interested in. Tech is one of those things.
-            That&apos;s why I chose to pursue Computer Science as my major. I
-            also love reading and learning outside the classroom and I want to
-            to keep everything I&apos;ve learned so far. This blog is kinda my
+            {/* I was never the best in schools,  */}
+            I&apos;m a super curious individual. My interest range from tech to
+            food to sports and a lot more. 
+            {/* Tech is one of those things. */}
+            {/* That&apos;s why I chose to pursue Computer Science as my major and learnt
+            . I */}
+            also love learning outside of my work environment  and I want to
+            to keep everything I&apos;ve learned so far. This blog is my
             digital notebook in the internet.
           </StyledDescription>
           <StyledDescription>
@@ -190,9 +193,11 @@ const About: React.FC<AboutProps> = ({ img }) => {
             <StyledSkillItem>Python/Flask/Django</StyledSkillItem>
             <StyledSkillItem>Javascript (ES6+)/Typescript</StyledSkillItem>
             <StyledSkillItem>HTML + CSS/SCSS</StyledSkillItem>
-            <StyledSkillItem>React/Gatsby/Vue</StyledSkillItem>
-            <StyledSkillItem>PostgresQL/GraphQL</StyledSkillItem>
-            <StyledSkillItem>Webpack/Docker</StyledSkillItem>
+            <StyledSkillItem>Swift/iOS programming</StyledSkillItem>
+            <StyledSkillItem>Android</StyledSkillItem>
+            {/* <StyledSkillItem>React/Gatsby/Vue</StyledSkillItem> */}
+            {/* <StyledSkillItem>PostgresQL/GraphQL</StyledSkillItem> */}
+            {/* <StyledSkillItem>Webpack/Docker</StyledSkillItem> */}
           </StyledSkillsGrid>
         </Col>
         <Col lg={6}>

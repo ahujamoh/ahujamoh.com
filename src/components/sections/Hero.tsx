@@ -225,7 +225,7 @@ const Hero: React.FC = () => {
   const Description: React.FC = () => (
     <StyledDescription style={{ transitionDelay: '400ms' }}>
       <p>
-        I&apos;m currently a college student living in Kent, WA. I love learning
+        I&apos;m currently working as a software engineer living in Södertälje, Stockholm County, Sweden. I love learning
         and building things about webs and technologies. This site is a place to
         tell you who I am. It&apos;s also used to store everything I&apos;ve
         learned so far.

@@ -71,6 +71,13 @@ export const pageQuery = graphql`
         }
       }
     }
+    logoImage: file(relativePath: { eq: "mo-icon.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 300, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
     latest: allMdx(
       limit: 5
       sort: { fields: [frontmatter___date], order: DESC }

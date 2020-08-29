@@ -10,8 +10,11 @@ _Notes: Richard had open-sourced his website to share the structure, the configu
 
 1. Clone the repository
 
-   ```shell
+   ```bash
      git clone https://github.com/richardnguyen99/richardnguyen99.github.io
+
+     # or
+     # git clone  https://github.com/ahujamoh/ahujamoh.github.io
    ```
 
 2. Know the structure

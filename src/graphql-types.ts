@@ -709,6 +709,7 @@ export enum FileFieldsEnum {
   ChildMdxRawBody = 'childMdx___rawBody',
   ChildMdxFileAbsolutePath = 'childMdx___fileAbsolutePath',
   ChildMdxFrontmatterTitle = 'childMdx___frontmatter___title',
+  ChildMdxFrontmatterAuthors = 'childMdx___frontmatter___authors',
   ChildMdxFrontmatterDate = 'childMdx___frontmatter___date',
   ChildMdxFrontmatterCategories = 'childMdx___frontmatter___categories',
   ChildMdxFrontmatterTags = 'childMdx___frontmatter___tags',
@@ -12509,6 +12510,7 @@ export type MdxFrontmatter = {
   date: Maybe<Scalars['Date']>,
   categories: Maybe<Array<Maybe<Scalars['String']>>>,
   tags: ("webpack" | "python" | "javascript" | "typescript" | "react" | "gatsby")[],
+  authors: Maybe<Array<Maybe<Scalars['String']>>>
   thumbnail: Maybe<File>,
 };
 
@@ -14072,7 +14074,7 @@ export type BlogPostQueryQuery = (
       & Pick<MdxFields, 'slug'>
     )>, frontmatter: Maybe<(
       { __typename?: 'MdxFrontmatter' }
-      & Pick<MdxFrontmatter, 'categories' | 'title' | 'date' | 'tags'>
+      & Pick<MdxFrontmatter, 'categories' | 'title' | 'date' | 'tags' | 'authors'>
       & { thumbnail: Maybe<(
         { __typename?: 'File' }
         & { childImageSharp: Maybe<(

@@ -3,6 +3,7 @@ import styled, { keyframes, Keyframes } from 'styled-components'
 import { Link } from 'gatsby'
 import Octicon, { ChevronDown } from '@primer/octicons-react'
 
+
 import { media } from '@styles'
 import { ProgressBar } from '@components'
 
@@ -329,7 +330,7 @@ const Header: React.FC<HeaderProps> = ({ siteTitle }) => {
       <StyledNavbar transparent={transparent}>
         <StyledContainer>
           <StyledBrand as={Link} to="/">
-            MOHIT
+              MOHIT
           </StyledBrand>
           <StyledToggler onClick={handleClick}>
             <Octicon icon={ChevronDown} />
