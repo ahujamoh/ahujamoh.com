@@ -55,19 +55,25 @@ _Notes: Richard had open-sourced his website to share the structure, the configu
 3. Play around:
 
    Install dependencies:
-   ```
+   ```bash
      yarn install
+   ```
+
+   Setup 
+   ```bash
+      yarn install dotenv
+      # setup .env in root folder for GATSBY_GITHUB_KEY
    ```
 
    Development:
 
-   ```shell
+   ```bash
      yarn develop
    ```
 
    Production:
 
-   ```shell
+   ```bash
      yarn build
    ```
 
