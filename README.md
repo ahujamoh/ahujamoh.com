@@ -1,6 +1,6 @@
 # ahujamoh.github.io
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/86736185-93d8-454a-b6d9-9f0d77687f40/deploy-status)](https://app.netlify.com/sites/richardnguyen99/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/037c5f36-b001-4b6e-a339-a4da2c04ee4b/deploy-status)](https://app.netlify.com/sites/ahujamoh/deploys)
 
 A personal website of Mohit Ahuja( forked from [Richard's Nguyen](https://github.com/richardnguyen99/richardnguyen99) and this is its source code. This website is written in [Gatsby](https://www.gatsbyjs.org/), [React](https://reactjs.org/), [Typescript](https://www.typescriptlang.org/) and [Styled-components](https://www.styled-components.com/).
 
