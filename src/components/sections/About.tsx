@@ -190,6 +190,7 @@ const About: React.FC<AboutProps> = ({ img }) => {
             I&apos;ll also write about them on this site:
           </StyledDescription>
           <StyledSkillsGrid>
+            <StyledSkillItem>Angular/AngularJS</StyledSkillItem>
             <StyledSkillItem>Python/Flask/Django</StyledSkillItem>
             <StyledSkillItem>Javascript (ES6+)/Typescript</StyledSkillItem>
             <StyledSkillItem>HTML + CSS/SCSS</StyledSkillItem>
